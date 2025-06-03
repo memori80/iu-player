@@ -2,7 +2,7 @@ name: Keep Alive
 
 on:
   schedule:
-    - cron: '*/14 * * * *'  # 14분마다 실행
+    - cron: '*/5 * * * *'  # 5분마다 실행
 
 jobs:
   ping:
